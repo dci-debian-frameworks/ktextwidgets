@@ -1,0 +1,104 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ktextwidgets
+Source: https://projects.kde.org/projects/frameworks/ktextwidgets
+
+Files: *       
+Copyright: © 2002, 2008, 2010 David Faure <faure@kde.org>
+                                 <david@mandrakesoft.com>
+           © 2001 S.R.Haque <srhaque@iee.org>
+           © 2008 Stephen Kelly <steveire@gmail.com> <steveire@gmailcom>
+           © 2008-2009 Thomas McGuire <mcguire@kde.org> <thomas.mcguire@gmx.net>
+           © 2004 Arend van Beelen <arend@auton.nl>
+           © 2007, 2012 Laurent Montel <montel@kde.org>
+           © 2002 Carsten Pfeiffer <pfeiffer@kde.org>
+           © 2002 Jesper K. Pedersen <blackie@kdab.net>
+           © 2005 Michael Brade <brade@kde.org>
+           © 2002 Simon Hausmann <hausmann@kde.org>
+License: LGPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".  
+  
+Files: autotests/ktextedit_unittest.cpp
+       src/kregexpeditor/*
+       src/widgets/ktextedit.cpp
+       src/widgets/ktextedit.h
+       tests/ktextedittest.cpp
+Copyright: 2008 David Faure <faure@kde.org>
+           2008 Stephen Kelly <steveire@gmail.com>
+           2002 Jesper K. Pedersen <blackie@kdab.net>
+           2002 Simon Hausmann <hausmann@kde.org>
+           2007 Laurent Montel <montel@kde.org>
+           2008 Thomas McGuire <thomas.mcguire@gmx.net> 
+           2002 Carsten Pfeiffer <pfeiffer@kde.org>           
+License: LGPL-2+ 
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+Files: autotests/krichtextedittest.cpp
+       autotests/krichtextedittest.h
+Copyright: 2009 Thomas McGuire <mcguire@kde.org>
+License: LGPL-2+ or version 3 or, at the discretion of KDE e.V.
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as 
+ published by the Free Software Foundation; either version 2 of
+ the License or ( at your option ) version 3 or, at the 
+ discretion of KDE e.V. ( which shall act as a proxy as in 
+ section 14 of the GPLv3 ), any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+
+Files: debian/* 
+Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
