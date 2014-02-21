@@ -4,24 +4,26 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules, qtbase5-dev, libkf5completion-dev, libkf5service-dev, 
- libkf5sonnet-dev, xauth, xvfb, libkf5iconthemes-dev, libkf5config-dev,
- libkf5i18n-dev, libkf5kjs-dev, libkf5widgetsaddons-dev, libkf5configwidgets-dev,
- libkf5auth-dev, libkf5coreaddons-dev, libkf5codecs-dev, libkf5guiaddons-dev,
- libkf5itemviews-dev, libkf5dbusaddons-dev, libkf5windowsystem-dev
+ extra-cmake-modules (>= 0.0.10), qtbase5-dev, libkf5completion-dev (>= 4.96.0), libkf5service-dev (>= 4.96.0), libkf5sonnet-dev (>= 4.96.0), xauth, xvfb, libkf5iconthemes-dev (>= 4.96.0), libkf5config-dev (>= 4.96.0),
+ libkf5i18n-dev (>= 4.96.0), libkf5kjs-dev (>= 4.96.0),
+ libkf5widgetsaddons-dev (>= 4.96.0), libkf5configwidgets-dev (>= 4.96.0),
+ libkf5auth-dev (>= 4.96.0), libkf5coreaddons-dev (>= 4.96.0),
+ libkf5codecs-dev (>= 4.96.0), libkf5guiaddons-dev (>= 4.96.0),
+ libkf5itemviews-dev (>= 4.96.0), libkf5dbusaddons-dev (>= 4.96.0),
+ libkf5windowsystem-dev (>= 4.96.0)
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/ktextwidgets
 
 Package: libkf5textwidgets-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5textwidgets5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5textwidgets4 (= ${binary:Version}), ${misc:Depends}
 Description: development files for ktextwidgets
  An assortment of text-related widgets.
  .
  Contains development files for ktextwidgets.
  
-Package: libkf5textwidgets5
+Package: libkf5textwidgets4
 Architecture: any
 Multi-Arch: allowed
 Pre-Depends: ${misc:Pre-Depends}
@@ -29,12 +31,12 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Advanced text editing widgets.
  An assortment of text-related widgets
 
-Package: libkf5textwidgets5-dbg
+Package: libkf5textwidgets4-dbg
 Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: allowed
-Depends: libkf5textwidgets5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5textwidgets4 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for ktextwidgets
  An assortment of text-related widgets
  .
