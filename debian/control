@@ -17,13 +17,13 @@ Homepage: https://projects.kde.org/projects/frameworks/ktextwidgets
 Package: libkf5textwidgets-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5textwidgets4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5textwidgets5 (= ${binary:Version}), ${misc:Depends}
 Description: development files for ktextwidgets
  An assortment of text-related widgets.
  .
  Contains development files for ktextwidgets.
  
-Package: libkf5textwidgets4
+Package: libkf5textwidgets5
 Architecture: any
 Multi-Arch: allowed
 Pre-Depends: ${misc:Pre-Depends}
@@ -31,12 +31,12 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Advanced text editing widgets.
  An assortment of text-related widgets
 
-Package: libkf5textwidgets4-dbg
+Package: libkf5textwidgets5-dbg
 Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: allowed
-Depends: libkf5textwidgets4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5textwidgets5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for ktextwidgets
  An assortment of text-related widgets
  .
