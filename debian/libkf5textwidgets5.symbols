@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5TextWidgets.so.4 libkf5textwidgets4 #MINVER#
+libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZN11KFindDialog10setOptionsEl@Base 4.96.0
  _ZN11KFindDialog10setPatternERK7QString@Base 4.96.0
  _ZN11KFindDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
