@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
+# SymbolsHelper-Confirmed: 4.98.0 i386
 libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZN11KFindDialog10setOptionsEl@Base 4.96.0
  _ZN11KFindDialog10setPatternERK7QString@Base 4.96.0
@@ -146,7 +146,6 @@ libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZN8KReplaceD0Ev@Base 4.96.0
  _ZN8KReplaceD1Ev@Base 4.96.0
  _ZN8KReplaceD2Ev@Base 4.96.0
- _ZN9KTextEdit10paintEventEP11QPaintEvent@Base 4.96.0
  _ZN9KTextEdit10slotDoFindEv@Base 4.96.0
  _ZN9KTextEdit11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN9KTextEdit11qt_metacastEPKc@Base 4.96.0
@@ -155,7 +154,6 @@ libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZN9KTextEdit12focusInEventEP11QFocusEvent@Base 4.96.0
  _ZN9KTextEdit12slotFindNextEv@Base 4.96.0
  _ZN9KTextEdit13checkSpellingEv@Base 4.96.0
- _ZN9KTextEdit13focusOutEventEP11QFocusEvent@Base 4.96.0
  _ZN9KTextEdit13highlightWordEii@Base 4.96.0
  _ZN9KTextEdit13keyPressEventEP9QKeyEvent@Base 4.96.0
  _ZN9KTextEdit13showTabActionEb@Base 4.96.0
@@ -165,7 +163,6 @@ libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZN9KTextEdit14mousePopupMenuEv@Base 4.96.0
  _ZN9KTextEdit14setHighlighterEPN6Sonnet11HighlighterE@Base 4.96.0
  _ZN9KTextEdit15languageChangedERK7QString@Base 4.96.0
- _ZN9KTextEdit15setClickMessageERK7QString@Base 4.96.0
  _ZN9KTextEdit15slotReplaceNextEv@Base 4.96.0
  _ZN9KTextEdit16contextMenuEventEP17QContextMenuEvent@Base 4.96.0
  _ZN9KTextEdit16spellCheckStatusERK7QString@Base 4.96.0
@@ -246,11 +243,9 @@ libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZNK8KReplace18displayFinalDialogEv@Base 4.96.0
  _ZNK9KTextEdit10metaObjectEv@Base 4.96.0
  _ZNK9KTextEdit11highlighterEv@Base 4.96.0
- _ZNK9KTextEdit12clickMessageEv@Base 4.96.0
  _ZNK9KTextEdit20checkSpellingEnabledEv@Base 4.96.0
  _ZNK9KTextEdit21spellCheckingLanguageEv@Base 4.96.0
  _ZNK9KTextEdit25shouldBlockBeSpellCheckedERK7QString@Base 4.96.0
- _ZNK9KTextEdit7Private16clickMessageRectEv@Base 4.96.0
  _ZTI11KFindDialog@Base 4.96.0
  _ZTI13KRichTextEdit@Base 4.96.0
  _ZTI14KReplaceDialog@Base 4.96.0
