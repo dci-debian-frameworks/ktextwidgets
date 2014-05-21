@@ -35,14 +35,14 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Advanced text editing widgets.
  An assortment of text-related widgets
-Multi-Arch: allowed
+Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5textwidgets5-dbg
 Priority: extra
 Section: debug
 Architecture: any
-Multi-Arch: allowed
+Multi-Arch: same
 Depends: libkf5textwidgets5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for ktextwidgets
  An assortment of text-related widgets
