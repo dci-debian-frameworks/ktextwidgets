@@ -3,33 +3,40 @@ Section: libs
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
-Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.13), qtbase5-dev, libkf5completion-dev (>= 4.99.0), libkf5service-dev (>= 4.99.0), libkf5sonnet-dev (>= 4.99.0), xauth, xvfb, libkf5iconthemes-dev (>= 4.99.0), libkf5config-dev (>= 4.99.0),
- libkf5i18n-dev (>= 4.99.0), libkf5kjs-dev (>= 4.99.0),
- libkf5widgetsaddons-dev (>= 4.99.0), libkf5configwidgets-dev (>= 4.99.0),
- libkf5auth-dev (>= 4.99.0), libkf5coreaddons-dev (>= 4.99.0),
- libkf5codecs-dev (>= 4.99.0), libkf5guiaddons-dev (>= 4.99.0),
- libkf5itemviews-dev (>= 4.99.0), libkf5dbusaddons-dev (>= 4.99.0),
- libkf5windowsystem-dev (>= 4.99.0)
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.13),
+               libkf5auth-dev (>= 4.99.0),
+               libkf5codecs-dev (>= 4.99.0),
+               libkf5completion-dev (>= 4.99.0),
+               libkf5config-dev (>= 4.99.0),
+               libkf5configwidgets-dev (>= 4.99.0),
+               libkf5coreaddons-dev (>= 4.99.0),
+               libkf5dbusaddons-dev (>= 4.99.0),
+               libkf5guiaddons-dev (>= 4.99.0),
+               libkf5i18n-dev (>= 4.99.0),
+               libkf5iconthemes-dev (>= 4.99.0),
+               libkf5itemviews-dev (>= 4.99.0),
+               libkf5kjs-dev (>= 4.99.0),
+               libkf5service-dev (>= 4.99.0),
+               libkf5sonnet-dev (>= 4.99.0),
+               libkf5widgetsaddons-dev (>= 4.99.0),
+               libkf5windowsystem-dev (>= 4.99.0),
+               pkg-kde-tools,
+               qtbase5-dev,
+               xauth,
+               xvfb
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/ktextwidgets
 
-Package: libkf5textwidgets-dev
+Package: libkf5textwidgets5
 Section: libdevel
 Architecture: any
-Depends: libkf5textwidgets5 (= ${binary:Version}), ${misc:Depends}
-Description: development files for ktextwidgets
- An assortment of text-related widgets.
- .
- Contains development files for ktextwidgets.
- 
-Package: libkf5textwidgets5
-Architecture: any
-Multi-Arch: allowed
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Advanced text editing widgets.
  An assortment of text-related widgets
+Multi-Arch: allowed
+Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5textwidgets5-dbg
 Priority: extra
