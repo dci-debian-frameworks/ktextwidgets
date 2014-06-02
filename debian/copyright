@@ -2,7 +2,7 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ktextwidgets
 Source: https://projects.kde.org/projects/frameworks/ktextwidgets
 
-Files: *       
+Files: *
 Copyright: © 2002, 2008, 2010 David Faure <faure@kde.org>
                                  <david@mandrakesoft.com>
            © 2001 S.R.Haque <srhaque@iee.org>
@@ -30,8 +30,8 @@ License: LGPL-2
  Boston, MA 02110-1301, USA.
  .
  On Debian systems, the complete text of the GNU Library General
- Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".  
-  
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
 Files: autotests/ktextedit_unittest.cpp
        src/kregexpeditor/*
        src/widgets/ktextedit.cpp
@@ -42,9 +42,9 @@ Copyright: 2008 David Faure <faure@kde.org>
            2002 Jesper K. Pedersen <blackie@kdab.net>
            2002 Simon Hausmann <hausmann@kde.org>
            2007 Laurent Montel <montel@kde.org>
-           2008 Thomas McGuire <thomas.mcguire@gmx.net> 
-           2002 Carsten Pfeiffer <pfeiffer@kde.org>           
-License: LGPL-2+ 
+           2008 Thomas McGuire <thomas.mcguire@gmx.net>
+           2002 Carsten Pfeiffer <pfeiffer@kde.org>
+License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
  License as published by the Free Software Foundation; either
@@ -68,10 +68,10 @@ Files: autotests/krichtextedittest.cpp
 Copyright: 2009 Thomas McGuire <mcguire@kde.org>
 License: LGPL-2+ or version 3 or, at the discretion of KDE e.V.
  This library is free software; you can redistribute it and/or modify
- it under the terms of the GNU Lesser General Public License as 
+ it under the terms of the GNU Lesser General Public License as
  published by the Free Software Foundation; either version 2 of
- the License or ( at your option ) version 3 or, at the 
- discretion of KDE e.V. ( which shall act as a proxy as in 
+ the License or ( at your option ) version 3 or, at the
+ discretion of KDE e.V. ( which shall act as a proxy as in
  section 14 of the GPLv3 ), any later version.
  .
  This library is distributed in the hope that it will be useful,
@@ -84,7 +84,7 @@ License: LGPL-2+ or version 3 or, at the discretion of KDE e.V.
  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  Boston, MA 02110-1301, USA.
 
-Files: debian/* 
+Files: debian/*
 Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
