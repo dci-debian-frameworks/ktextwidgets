@@ -32,7 +32,14 @@ Homepage: https://projects.kde.org/projects/frameworks/ktextwidgets
 Package: libkf5textwidgets-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5textwidgets5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5textwidgets5 (= ${binary:Version}), ${misc:Depends},
+ libkf5completion-dev,
+ libkf5configwidgets-dev,
+ libkf5iconthemes-dev,
+ libkf5service-dev,
+ libkf5windowsystem-dev,
+ libkf5sonnet-dev
+ qtbase5-dev,
 Description: development files for ktextwidgets
  An assortment of text-related widgets.
  .
