@@ -29,6 +29,15 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/ktextwidgets
 
+Package: libkf5textwidgets-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5textwidgets5 (= ${binary:Version}), ${misc:Depends}
+Description: development files for ktextwidgets
+ An assortment of text-related widgets.
+ .
+ Contains development files for ktextwidgets.
+
 Package: libkf5textwidgets5
 Section: libdevel
 Architecture: any
