@@ -7,6 +7,9 @@ ktextwidgets (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Bump depends versions
   * Fix control file
 
+  [ Harald Sitter ]
+  * Install qt mkpsecs pri files to libkf5textwidgets-dev
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:44:25 +0100
 
 ktextwidgets (4.99.0-0ubuntu1) trusty; urgency=medium
