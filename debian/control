@@ -53,7 +53,6 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Advanced text editing widgets.
  An assortment of text-related widgets
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5textwidgets5-dbg
 Priority: extra
