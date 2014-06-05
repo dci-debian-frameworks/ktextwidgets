@@ -11,6 +11,7 @@ ktextwidgets (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Install qt mkpsecs pri files to libkf5textwidgets-dev
   * Remove useless Pre-Depends fields used for multiarch compat in
     releases older than trusty
+  * Remove incorrect Section fields
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:44:25 +0100
 

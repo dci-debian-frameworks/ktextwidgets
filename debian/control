@@ -47,7 +47,6 @@ Description: development files for ktextwidgets
  Contains development files for ktextwidgets.
 
 Package: libkf5textwidgets5
-Section: libdevel
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Advanced text editing widgets.
