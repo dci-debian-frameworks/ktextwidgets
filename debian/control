@@ -37,9 +37,9 @@ Depends: libkf5completion-dev,
          libkf5iconthemes-dev,
          libkf5service-dev,
          libkf5sonnet-dev,
-         qtbase5-dev,
          libkf5textwidgets5 (= ${binary:Version}),
          libkf5windowsystem-dev,
+         qtbase5-dev,
          ${misc:Depends}
 Description: development files for ktextwidgets
  An assortment of text-related widgets.
@@ -47,13 +47,23 @@ Description: development files for ktextwidgets
  Contains development files for ktextwidgets.
 
 Package: libkf5textwidgets5
-Section: libdevel
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: libkf5textwidgets-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Advanced text editing widgets.
  An assortment of text-related widgets
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
+
+Package: libkf5textwidgets-data
+Architecture: all
+Depends: ${misc:Depends}
+Breaks: libkf5textwidgets5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa1)
+Replaces: libkf5textwidgets5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa1)
+Description: Advanced text editing widgets.
+ An assortment of text-related widgets
+ .
+ This package contains the data files.
 
 Package: libkf5textwidgets5-dbg
 Priority: extra
