@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.98.0 i386
+# SymbolsHelper-Confirmed: 5.0.0 amd64
 libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZN11KFindDialog10setOptionsEl@Base 4.96.0
  _ZN11KFindDialog10setPatternERK7QString@Base 4.96.0
@@ -99,6 +99,15 @@ libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZN15KRichTextWidgetD0Ev@Base 4.96.0
  _ZN15KRichTextWidgetD1Ev@Base 4.96.0
  _ZN15KRichTextWidgetD2Ev@Base 4.96.0
+ _ZN22KPluralHandlingSpinBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.0
+ _ZN22KPluralHandlingSpinBox11qt_metacastEPKc@Base 5.0.0
+ _ZN22KPluralHandlingSpinBox16staticMetaObjectE@Base 5.0.0
+ _ZN22KPluralHandlingSpinBox9setSuffixERK16KLocalizedString@Base 5.0.0
+ _ZN22KPluralHandlingSpinBoxC1EP7QWidget@Base 5.0.0
+ _ZN22KPluralHandlingSpinBoxC2EP7QWidget@Base 5.0.0
+ _ZN22KPluralHandlingSpinBoxD0Ev@Base 5.0.0
+ _ZN22KPluralHandlingSpinBoxD1Ev@Base 5.0.0
+ _ZN22KPluralHandlingSpinBoxD2Ev@Base 5.0.0
  _ZN5KFind10setOptionsEl@Base 4.96.0
  _ZN5KFind10setPatternERK7QString@Base 4.96.0
  _ZN5KFind11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -227,6 +236,7 @@ libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZNK14KReplaceDialog7optionsEv@Base 4.96.0
  _ZNK15KRichTextWidget10metaObjectEv@Base 4.96.0
  _ZNK15KRichTextWidget15richTextSupportEv@Base 4.96.0
+ _ZNK22KPluralHandlingSpinBox10metaObjectEv@Base 5.0.0
  _ZNK5KFind10metaObjectEv@Base 4.96.0
  _ZNK5KFind10numMatchesEv@Base 4.96.0
  _ZNK5KFind12parentWidgetEv@Base 4.96.0
@@ -250,6 +260,7 @@ libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZTI13KRichTextEdit@Base 4.96.0
  _ZTI14KReplaceDialog@Base 4.96.0
  _ZTI15KRichTextWidget@Base 4.96.0
+ _ZTI22KPluralHandlingSpinBox@Base 5.0.0
  _ZTI5KFind@Base 4.96.0
  _ZTI8KReplace@Base 4.96.0
  _ZTI9KTextEdit@Base 4.96.0
@@ -257,6 +268,7 @@ libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZTS13KRichTextEdit@Base 4.96.0
  _ZTS14KReplaceDialog@Base 4.96.0
  _ZTS15KRichTextWidget@Base 4.96.0
+ _ZTS22KPluralHandlingSpinBox@Base 5.0.0
  _ZTS5KFind@Base 4.96.0
  _ZTS8KReplace@Base 4.96.0
  _ZTS9KTextEdit@Base 4.96.0
@@ -264,10 +276,12 @@ libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZTV13KRichTextEdit@Base 4.96.0
  _ZTV14KReplaceDialog@Base 4.96.0
  _ZTV15KRichTextWidget@Base 4.96.0
+ _ZTV22KPluralHandlingSpinBox@Base 5.0.0
  _ZTV5KFind@Base 4.96.0
  _ZTV8KReplace@Base 4.96.0
  _ZTV9KTextEdit@Base 4.96.0
  (c++)"non-virtual thunk to KFindDialog::~KFindDialog()@Base" 4.96.0
+ (c++)"non-virtual thunk to KPluralHandlingSpinBox::~KPluralHandlingSpinBox()@Base" 5.0.0
  (c++)"non-virtual thunk to KReplaceDialog::~KReplaceDialog()@Base" 4.96.0
  (c++)"non-virtual thunk to KRichTextEdit::~KRichTextEdit()@Base" 4.96.0
  (c++)"non-virtual thunk to KRichTextWidget::~KRichTextWidget()@Base" 4.96.0

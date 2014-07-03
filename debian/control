@@ -48,15 +48,16 @@ Description: development files for ktextwidgets
 
 Package: libkf5textwidgets5
 Architecture: any
+Multi-Arch: same
 Depends: libkf5textwidgets-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Advanced text editing widgets.
  An assortment of text-related widgets
-Multi-Arch: same
 
 Package: libkf5textwidgets-data
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}
 Breaks: libkf5textwidgets5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa1)
 Replaces: libkf5textwidgets5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa1)
