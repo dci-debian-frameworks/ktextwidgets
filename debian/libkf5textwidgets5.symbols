@@ -1,14 +1,16 @@
-# SymbolsHelper-Confirmed: 5.0.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZN11KFindDialog10setOptionsEl@Base 4.96.0
  _ZN11KFindDialog10setPatternERK7QString@Base 4.96.0
  _ZN11KFindDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN11KFindDialog11qt_metacastEPKc@Base 4.96.0
  _ZN11KFindDialog12setHasCursorEb@Base 4.96.0
+ _ZN11KFindDialog13cancelClickedEv@Base 5.1.0
  _ZN11KFindDialog14optionsChangedEv@Base 4.96.0
  _ZN11KFindDialog14setFindHistoryERK11QStringList@Base 4.96.0
  _ZN11KFindDialog15setHasSelectionEb@Base 4.96.0
  _ZN11KFindDialog16staticMetaObjectE@Base 4.96.0
+ _ZN11KFindDialog18KFindDialogPrivate13_k_slotRejectEv@Base 5.1.0
  _ZN11KFindDialog18KFindDialogPrivate15_k_showPatternsEv@Base 4.96.0
  _ZN11KFindDialog18KFindDialogPrivate19_k_showPlaceholdersEv@Base 4.96.0
  _ZN11KFindDialog18KFindDialogPrivate20_k_textSearchChangedERK7QString@Base 4.96.0
@@ -20,6 +22,7 @@ libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZN11KFindDialog25setSupportsWholeWordsFindEb@Base 4.96.0
  _ZN11KFindDialog28setSupportsCaseSensitiveFindEb@Base 4.96.0
  _ZN11KFindDialog32setSupportsRegularExpressionFindEb@Base 4.96.0
+ _ZN11KFindDialog9okClickedEv@Base 5.1.0
  _ZN11KFindDialog9showEventEP10QShowEvent@Base 4.96.0
  _ZN11KFindDialogC1EP7QWidgetlRK11QStringListbb@Base 4.96.0
  _ZN11KFindDialogC2EP7QWidgetlRK11QStringListbb@Base 4.96.0
