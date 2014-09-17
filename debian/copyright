@@ -67,7 +67,7 @@ License: LGPL-2+
 Files: autotests/krichtextedittest.cpp
        autotests/krichtextedittest.h
 Copyright: 2009 Thomas McGuire <mcguire@kde.org>
-License: LGPL-2+ or version 3 or, at the discretion of KDE e.V.
+License: LGPL-2+
  This library is free software; you can redistribute it and/or modify
  it under the terms of the GNU Lesser General Public License as
  published by the Free Software Foundation; either version 2 of
@@ -87,6 +87,7 @@ License: LGPL-2+ or version 3 or, at the discretion of KDE e.V.
  .
  On Debian systems, the complete text of the GNU Library General
  Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+Comment: or version 3 or, at the discretion of KDE e.V.
 
 Files: autotests/kpluralhandlingspinboxtest.cpp
  autotests/kpluralhandlingspinboxtest.h
