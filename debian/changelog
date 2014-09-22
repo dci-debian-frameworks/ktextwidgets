@@ -1,4 +1,4 @@
-ktextwidgets (5.2.0-0ubuntu1) UNRELEASED; urgency=medium
+ktextwidgets (5.2.0-0ubuntu1) utopic; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream release
@@ -8,7 +8,7 @@ ktextwidgets (5.2.0-0ubuntu1) UNRELEASED; urgency=medium
   * Cleanup copyright + move copyright extra details to comment to silence
     space-in-std-shortname-in-dep5-copyright lintian error.  
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 11 Sep 2014 20:48:38 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 19:50:52 +0200
 
 ktextwidgets (5.1.0-0ubuntu1) utopic; urgency=medium
 
