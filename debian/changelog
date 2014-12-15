@@ -1,8 +1,8 @@
-ktextwidgets (5.5.0-0ubuntu1) UNRELEASED; urgency=medium
+ktextwidgets (5.5.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 11 Dec 2014 14:13:48 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 11:07:22 +0100
 
 ktextwidgets (5.4.0-0ubuntu1) vivid; urgency=medium
 
