@@ -7,6 +7,7 @@ ktextwidgets (5.6.0-1~) UNRELEASED; urgency=medium
   * Update copyright information.
   * Update install files.
   * Update watch file.
+  * Add basic autopkgtests support.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 27 Jan 2015 13:54:41 +0100
 
