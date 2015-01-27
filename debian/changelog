@@ -5,6 +5,7 @@ ktextwidgets (5.6.0-1~) UNRELEASED; urgency=medium
     follow cmake.
   * Bump Standards-Version to 3.9.6, no changes needed.
   * Update copyright information.
+  * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 27 Jan 2015 13:54:41 +0100
 
