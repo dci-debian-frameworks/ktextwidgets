@@ -4,12 +4,24 @@ ktextwidgets (5.9.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 16 Apr 2015 10:21:47 +0200
 
+ktextwidgets (5.9.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Apr 2015 22:31:34 +0200
+
 ktextwidgets (5.8.0-1) experimental; urgency=medium
 
   * New upstream release (5.8.0).
   * Update copyright information.
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Mar 2015 11:38:39 +0100
+
+ktextwidgets (5.8.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Mar 2015 15:41:51 +0100
 
 ktextwidgets (5.7.0-1) experimental; urgency=medium
 
