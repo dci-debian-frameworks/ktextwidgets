@@ -1,10 +1,11 @@
 ktextwidgets (5.9.0-1) experimental; urgency=medium
 
+  * Team upload.
+
   [ Maximiliano Curia ]
   * New upstream release (5.9.0).
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Team upload.
   * Backport Add-missing-license-file-COPYING.LGPL-2.patch which includes
     missing license file.
 
