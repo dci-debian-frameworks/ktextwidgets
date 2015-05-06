@@ -1,6 +1,11 @@
-ktextwidgets (5.9.0-1) experimental; urgency=medium
+ktextwidgets (5.9.0-1) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (5.9.0).
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Backport Add-missing-license-file-COPYING.LGPL-2.patch which includes
+    missing license file.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 08:24:57 +0200
 
