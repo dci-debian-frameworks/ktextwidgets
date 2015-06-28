@@ -2,6 +2,7 @@ ktextwidgets (5.11.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.10.0).
   * New upstream release (5.11.0).
+  * Remove upstream patch: Add-missing-license-file-COPYING.LGPL-2.patch
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 28 Jun 2015 15:03:23 +0200
 
