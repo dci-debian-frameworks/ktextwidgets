@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 amd64
+# SymbolsHelper-Confirmed: 5.11.0 amd64
 libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZN11KFindDialog10setOptionsEl@Base 4.96.0
  _ZN11KFindDialog10setPatternERK7QString@Base 4.96.0
@@ -171,12 +171,15 @@ libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZN9KTextEdit13showTabActionEb@Base 4.96.0
  _ZN9KTextEdit13slotDoReplaceEv@Base 4.96.0
  _ZN9KTextEdit13slotSpeakTextEv@Base 4.96.0
+ _ZN9KTextEdit14clearDecoratorEv@Base 5.11.0
  _ZN9KTextEdit14deleteWordBackEv@Base 4.96.0
  _ZN9KTextEdit14mousePopupMenuEv@Base 4.96.0
  _ZN9KTextEdit14setHighlighterEPN6Sonnet11HighlighterE@Base 4.96.0
  _ZN9KTextEdit15languageChangedERK7QString@Base 4.96.0
  _ZN9KTextEdit15slotReplaceNextEv@Base 4.96.0
+ _ZN9KTextEdit16addTextDecoratorEPN6Sonnet19SpellCheckDecoratorE@Base 5.11.0
  _ZN9KTextEdit16contextMenuEventEP17QContextMenuEvent@Base 4.96.0
+ _ZN9KTextEdit16slotFindPreviousEv@Base 5.11.0
  _ZN9KTextEdit16spellCheckStatusERK7QString@Base 4.96.0
  _ZN9KTextEdit16staticMetaObjectE@Base 4.96.0
  _ZN9KTextEdit17createHighlighterEv@Base 4.96.0
