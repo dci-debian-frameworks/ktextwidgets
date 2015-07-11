@@ -1,17 +1,21 @@
 ktextwidgets (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
-  [ Jonathan Riddell ]
-  * Remove old patch Add-missing-license-file-COPYING.LGPL-2.patch
-
-  [ Scarlett Clark ]
   * New upstream release
+  * Fix merge, Remove unused broken backport.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:25:01 -0700
 
-ktextwidgets (5.10.0-0ubuntu1) wily; urgency=medium
+ktextwidgets (5.11.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.10.0).
+  * New upstream release (5.11.0).
+  * Remove upstream patch: Add-missing-license-file-COPYING.LGPL-2.patch
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 28 Jun 2015 20:28:41 +0200
+
+ktextwidgets (5.10.0-0ubuntu2) wily; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream release
@@ -107,14 +111,14 @@ ktextwidgets (5.2.0-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
   * Cleanup copyright + move copyright extra details to comment to silence
-    space-in-std-shortname-in-dep5-copyright lintian error.  
+    space-in-std-shortname-in-dep5-copyright lintian error.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 19:50:52 +0200
 
 ktextwidgets (5.1.0-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
-  * Patch symbols with batchpatch 
+  * Patch symbols with batchpatch
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 05 Aug 2014 17:26:22 +0200
 
