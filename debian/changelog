@@ -2,6 +2,7 @@ ktextwidgets (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
   * Fix merge, Remove unused broken backport.
+  * Vivid backport. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:25:01 -0700
 
