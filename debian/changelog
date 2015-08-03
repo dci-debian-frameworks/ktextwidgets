@@ -1,9 +1,9 @@
-ktextwidgets (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
+ktextwidgets (5.12.0-0ubuntu1) wily; urgency=medium
 
   * New upstream release
   * Fix merge, Remove unused broken backport.
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:25:01 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 16:09:49 +0200
 
 ktextwidgets (5.11.0-1) unstable; urgency=medium
 
