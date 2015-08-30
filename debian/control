@@ -21,7 +21,6 @@ Build-Depends: cmake (>= 2.8.10.20130309),
                xauth,
                xvfb
 Standards-Version: 3.9.6
-XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/frameworks/ktextwidgets
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/ktextwidgets.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/ktextwidgets.git
