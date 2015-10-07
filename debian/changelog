@@ -1,4 +1,4 @@
-ktextwidgets (5.15.0-0ubuntu1) UNRELEASED; urgency=medium
+ktextwidgets (5.15.0-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
   * Vivid backport
@@ -6,7 +6,7 @@ ktextwidgets (5.15.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * new upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 Oct 2015 21:00:13 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 13:56:57 +0100
 
 ktextwidgets (5.14.0-0ubuntu1) wily; urgency=medium
 
