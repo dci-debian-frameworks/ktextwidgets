@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.15.0+git20151012.1315+15.10 amd64 i386
+# SymbolsHelper-Confirmed: 5.16.0 amd64
 libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZN11KFindDialog10setOptionsEl@Base 4.96.0
  _ZN11KFindDialog10setPatternERK7QString@Base 4.96.0
@@ -286,9 +286,9 @@ libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZTV5KFind@Base 4.96.0
  _ZTV8KReplace@Base 4.96.0
  _ZTV9KTextEdit@Base 4.96.0
- _ZZZN9KTextEdit7PrivateC4EPS_ENKUlvE0_clEvE15qstring_literal@Base 5.15.0+git20151012.1315+15.10
- _ZZZN9KTextEdit7PrivateC4EPS_ENKUlvE1_clEvE15qstring_literal@Base 5.15.0+git20151012.1315+15.10
- _ZZZN9KTextEdit7PrivateC4EPS_ENKUlvE_clEvE15qstring_literal@Base 5.15.0+git20151012.1315+15.10
+ _ZZZN9KTextEdit7PrivateC4EPS_ENKUlvE0_clEvE15qstring_literal@Base 5.16.0
+ _ZZZN9KTextEdit7PrivateC4EPS_ENKUlvE1_clEvE15qstring_literal@Base 5.16.0
+ _ZZZN9KTextEdit7PrivateC4EPS_ENKUlvE_clEvE15qstring_literal@Base 5.16.0
  (c++)"non-virtual thunk to KFindDialog::~KFindDialog()@Base" 4.96.0
  (c++)"non-virtual thunk to KPluralHandlingSpinBox::~KPluralHandlingSpinBox()@Base" 5.0.0
  (c++)"non-virtual thunk to KReplaceDialog::~KReplaceDialog()@Base" 4.96.0
