@@ -61,14 +61,3 @@ Description: Advanced text editing widgets.
  An assortment of text-related widgets
  .
  This package contains the data files.
-
-Package: libkf5textwidgets5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Multi-Arch: same
-Depends: libkf5textwidgets5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for ktextwidgets
- An assortment of text-related widgets
- .
- Contains debug symbols for ktextwidgets.
