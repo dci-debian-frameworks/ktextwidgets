@@ -23,7 +23,7 @@ Build-Depends: cmake (>= 2.8.10.20130309),
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/ktextwidgets
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/ktextwidgets.git
-Vcs-Git: https://anonscm.debian.org/pkg-kde/frameworks/ktextwidgets.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/ktextwidgets.git
 
 Package: libkf5textwidgets-dev
 Section: libdevel
