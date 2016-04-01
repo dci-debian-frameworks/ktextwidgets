@@ -1,6 +1,6 @@
-ktextwidgets (5.20.0-1~2.gbp25659f) UNRELEASED; urgency=medium
+ktextwidgets (5.20.0-1~3.gbpb10746) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @25659f94c9b00c640c23957361fc8e14f7ff5ecf **
+  ** SNAPSHOT build @b107466740443ba0a05a6507d9bb47f4c66ad24c **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -13,8 +13,9 @@ ktextwidgets (5.20.0-1~2.gbp25659f) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * Update acc test script
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:39:15 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:39:28 +0200
 
 ktextwidgets (5.19.0-1) experimental; urgency=medium
 
