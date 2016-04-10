@@ -1,6 +1,6 @@
-ktextwidgets (5.20.0-1~3.gbpb10746) UNRELEASED; urgency=medium
+ktextwidgets (5.21.0-1~1.gbp6ee777) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @b107466740443ba0a05a6507d9bb47f4c66ad24c **
+  ** SNAPSHOT build @6ee7771d6f1a60b4f3c99e9cb5a521db892bc6a7 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -14,8 +14,14 @@ ktextwidgets (5.20.0-1~3.gbpb10746) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Update acc test script
   * UNRELEASED
+  * uscan no longer supports more than one main upstream tarball being listed
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:39:28 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:39:22 +0200
 
 ktextwidgets (5.19.0-1) experimental; urgency=medium
 
