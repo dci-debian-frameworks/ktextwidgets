@@ -1,10 +1,9 @@
-ktextwidgets (5.23.0-1~1.gbpd48c0c) UNRELEASED; urgency=medium
+ktextwidgets (5.23.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @d48c0c25631154a5f5c495f4eac16cf287538239 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 12 Jun 2016 21:39:37 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Jun 2016 22:42:44 +0200
 
 ktextwidgets (5.22.0-1) unstable; urgency=medium
 
