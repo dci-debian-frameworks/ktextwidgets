@@ -41,6 +41,9 @@ Description: development files for ktextwidgets
  An assortment of text-related widgets.
  .
  Contains development files for ktextwidgets.
+Breaks: libkf5kdelibs4support-dev (<< 5.25),
+        libkf5parts-dev (<< 5.25),
+        libkf5xmlgui-dev (<< 5.25)
 
 Package: libkf5textwidgets5
 Architecture: any
@@ -50,6 +53,13 @@ Depends: libkf5textwidgets-data (= ${source:Version}),
          ${shlibs:Depends}
 Description: Advanced text editing widgets.
  An assortment of text-related widgets
+Breaks: kdesignerplugin (<< 5.25),
+        kio (<< 5.25),
+        libkf5kdelibs4support5 (<< 5.25),
+        libkf5khtml5 (<< 5.25),
+        libkf5newstuff5 (<< 5.25),
+        libkf5texteditor5 (<< 5.25),
+        libkf5xmlgui5 (<< 5.25)
 
 Package: libkf5textwidgets-data
 Architecture: all
