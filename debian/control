@@ -5,22 +5,22 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.10.20130309),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.19.0~),
-               libkf5completion-dev (>= 5.19.0~),
-               libkf5config-dev (>= 5.19.0~),
-               libkf5configwidgets-dev (>= 5.19.0~),
-               libkf5i18n-dev (>= 5.19.0~),
-               libkf5iconthemes-dev (>= 5.19.0~),
-               libkf5itemviews-dev (>= 5.18.0~),
-               libkf5service-dev (>= 5.19.0~),
-               libkf5sonnet-dev (>= 5.19.0~),
-               libkf5widgetsaddons-dev (>= 5.19.0~),
-               libkf5windowsystem-dev (>= 5.19.0~),
+               extra-cmake-modules (>= 5.25.0~),
+               libkf5completion-dev (>= 5.25.0~),
+               libkf5config-dev (>= 5.25.0~),
+               libkf5configwidgets-dev (>= 5.25.0~),
+               libkf5i18n-dev (>= 5.25.0~),
+               libkf5iconthemes-dev (>= 5.25.0~),
+               libkf5itemviews-dev (>= 5.7.0),
+               libkf5service-dev (>= 5.25.0~),
+               libkf5sonnet-dev (>= 5.25.0~),
+               libkf5widgetsaddons-dev (>= 5.25.0~),
+               libkf5windowsystem-dev (>= 5.25.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.4),
+               qtbase5-dev (>= 5.5.0~),
                xauth,
                xvfb
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/frameworks/ktextwidgets
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/ktextwidgets.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/ktextwidgets.git
@@ -28,19 +28,22 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/ktextwidgets.git
 Package: libkf5textwidgets-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5completion-dev (>= 5.19.0~),
-         libkf5configwidgets-dev (>= 5.19.0~),
-         libkf5iconthemes-dev (>= 5.19.0~),
-         libkf5service-dev (>= 5.19.0~),
-         libkf5sonnet-dev (>= 5.19.0~),
+Depends: libkf5completion-dev (>= 5.25.0~),
+         libkf5configwidgets-dev (>= 5.25.0~),
+         libkf5iconthemes-dev (>= 5.25.0~),
+         libkf5service-dev (>= 5.25.0~),
+         libkf5sonnet-dev (>= 5.25.0~),
          libkf5textwidgets5 (= ${binary:Version}),
-         libkf5windowsystem-dev (>= 5.19.0~),
-         qtbase5-dev (>= 5.4),
+         libkf5windowsystem-dev (>= 5.25.0~),
+         qtbase5-dev (>= 5.5.0~),
          ${misc:Depends}
 Description: development files for ktextwidgets
  An assortment of text-related widgets.
  .
  Contains development files for ktextwidgets.
+Breaks: libkf5kdelibs4support-dev (<< 5.25),
+        libkf5parts-dev (<< 5.25),
+        libkf5xmlgui-dev (<< 5.25)
 
 Package: libkf5textwidgets5
 Architecture: any
@@ -50,6 +53,13 @@ Depends: libkf5textwidgets-data (= ${source:Version}),
          ${shlibs:Depends}
 Description: Advanced text editing widgets.
  An assortment of text-related widgets
+Breaks: kdesignerplugin (<< 5.25),
+        kio (<< 5.25),
+        libkf5kdelibs4support5 (<< 5.25),
+        libkf5khtml5 (<< 5.25),
+        libkf5newstuff5 (<< 5.25),
+        libkf5texteditor5 (<< 5.25),
+        libkf5xmlgui5 (<< 5.25)
 
 Package: libkf5textwidgets-data
 Architecture: all
