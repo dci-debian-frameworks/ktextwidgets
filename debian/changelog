@@ -1,10 +1,12 @@
-ktextwidgets (5.26.0-1~1.gbp671b05) UNRELEASED; urgency=medium
+ktextwidgets (5.26.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @671b0515747bc5308abdbe9ec3540e4d7b99211f **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 15:01:07 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.26)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 12:01:15 +0200
 
 ktextwidgets (5.25.0-1) unstable; urgency=medium
 
