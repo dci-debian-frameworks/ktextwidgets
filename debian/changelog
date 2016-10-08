@@ -1,3 +1,11 @@
+ktextwidgets (5.27.0-1~1.gbp8e90f9) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @8e90f9b745524044b1f177a94bccb04e9409e01a **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 21:39:53 +0200
+
 ktextwidgets (5.26.0-2) unstable; urgency=medium
 
   * Disable auto tests at build time
