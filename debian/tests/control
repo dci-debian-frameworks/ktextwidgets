@@ -1,6 +1,8 @@
-Tests: testsuite
-Depends: @, @builddeps@, build-essential, xvfb, xauth
-Restrictions: build-needed
+# Don't run test on neon. Due to containment we can't do GUIs that need opengl.
+# Blocked by upgrading infrastructure to 16.04
+# Tests: testsuite
+# Depends: @, @builddeps@, build-essential, xvfb, xauth
+# Restrictions: build-needed
 
 Tests: acc
 Depends: @, dh-acc, exuberant-ctags
