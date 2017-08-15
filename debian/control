@@ -67,6 +67,7 @@ Description: Advanced text editing widgets (documentation)
  An assortment of text-related widgets
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5textwidgets5
 Architecture: any
