@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.16.0 amd64
+# SymbolsHelper-Confirmed: 5.41.0 amd64
 libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZN11KFindDialog10setOptionsEl@Base 4.96.0
  _ZN11KFindDialog10setPatternERK7QString@Base 4.96.0
@@ -10,14 +10,6 @@ libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZN11KFindDialog14setFindHistoryERK11QStringList@Base 4.96.0
  _ZN11KFindDialog15setHasSelectionEb@Base 4.96.0
  _ZN11KFindDialog16staticMetaObjectE@Base 4.96.0
- _ZN11KFindDialog18KFindDialogPrivate13_k_slotRejectEv@Base 5.1.0
- _ZN11KFindDialog18KFindDialogPrivate15_k_showPatternsEv@Base 4.96.0
- _ZN11KFindDialog18KFindDialogPrivate19_k_showPlaceholdersEv@Base 4.96.0
- _ZN11KFindDialog18KFindDialogPrivate20_k_textSearchChangedERK7QString@Base 4.96.0
- _ZN11KFindDialog18KFindDialogPrivate26_k_slotSelectedTextToggledEb@Base 4.96.0
- _ZN11KFindDialog18KFindDialogPrivate30_k_slotPlaceholdersAboutToShowEv@Base 4.96.0
- _ZN11KFindDialog18KFindDialogPrivate4initEbRK11QStringListb@Base 4.96.0
- _ZN11KFindDialog18KFindDialogPrivate9_k_slotOkEv@Base 4.96.0
  _ZN11KFindDialog24setSupportsBackwardsFindEb@Base 4.96.0
  _ZN11KFindDialog25setSupportsWholeWordsFindEb@Base 4.96.0
  _ZN11KFindDialog28setSupportsCaseSensitiveFindEb@Base 4.96.0
@@ -87,14 +79,6 @@ libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZN15KRichTextWidget17setActionsEnabledEb@Base 4.96.0
  _ZN15KRichTextWidget18setRichTextSupportERK6QFlagsINS_21RichTextSupportValuesEE@Base 4.96.0
  _ZN15KRichTextWidget18updateActionStatesEv@Base 4.96.0
- _ZN15KRichTextWidget7Private13_k_manageLinkEv@Base 4.96.0
- _ZN15KRichTextWidget7Private15_k_setListStyleEi@Base 4.96.0
- _ZN15KRichTextWidget7Private16_k_formatPainterEb@Base 4.96.0
- _ZN15KRichTextWidget7Private20_k_updateMiscActionsEv@Base 4.96.0
- _ZN15KRichTextWidget7Private25_k_setTextBackgroundColorEv@Base 4.96.0
- _ZN15KRichTextWidget7Private25_k_setTextForegroundColorEv@Base 4.96.0
- _ZN15KRichTextWidget7Private26_k_updateCharFormatActionsERK15QTextCharFormat@Base 4.96.0
- _ZN15KRichTextWidget7Private4initEv@Base 4.96.0
  _ZN15KRichTextWidgetC1EP7QWidget@Base 4.96.0
  _ZN15KRichTextWidgetC1ERK7QStringP7QWidget@Base 4.96.0
  _ZN15KRichTextWidgetC2EP7QWidget@Base 4.96.0
@@ -125,10 +109,6 @@ libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZN5KFind4findERK7QStringRK7QRegExpilPi@Base 4.96.0
  _ZN5KFind4findERK7QStringS2_ilPi@Base 4.96.0
  _ZN5KFind4findEv@Base 4.96.0
- _ZN5KFind7Private15_k_slotFindNextEv@Base 4.96.0
- _ZN5KFind7Private19_k_slotDialogClosedEv@Base 4.96.0
- _ZN5KFind7Private25startNewIncrementalSearchEv@Base 4.96.0
- _ZN5KFind7Private4initERK7QString@Base 4.96.0
  _ZN5KFind7setDataERK7QStringi@Base 4.96.0
  _ZN5KFind7setDataEiRK7QStringi@Base 4.96.0
  _ZN5KFind8findNextEv@Base 4.96.0
@@ -196,21 +176,6 @@ libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZN9KTextEdit23spellCheckerAutoCorrectERK7QStringS2_@Base 4.96.0
  _ZN9KTextEdit24setSpellCheckingLanguageERK7QString@Base 4.96.0
  _ZN9KTextEdit5eventEP6QEvent@Base 4.96.0
- _ZN9KTextEdit7Private12slotAllowTabEv@Base 4.96.0
- _ZN9KTextEdit7Private13checkSpellingEb@Base 4.96.0
- _ZN9KTextEdit7Private13menuActivatedEP7QAction@Base 4.96.0
- _ZN9KTextEdit7Private13undoableClearEv@Base 4.96.0
- _ZN9KTextEdit7Private14handleShortcutEPK9QKeyEvent@Base 4.96.0
- _ZN9KTextEdit7Private15slotReplaceTextERK7QStringiii@Base 4.96.0
- _ZN9KTextEdit7Private16overrideShortcutEPK9QKeyEvent@Base 4.96.0
- _ZN9KTextEdit7Private17slotFindHighlightERK7QStringii@Base 4.96.0
- _ZN9KTextEdit7Private20spellCheckerCanceledEv@Base 4.96.0
- _ZN9KTextEdit7Private20spellCheckerFinishedEv@Base 4.96.0
- _ZN9KTextEdit7Private20toggleAutoSpellCheckEv@Base 4.96.0
- _ZN9KTextEdit7Private21spellCheckerCorrectedERK7QStringiS3_@Base 4.96.0
- _ZN9KTextEdit7Private23spellCheckerAutoCorrectERK7QStringS3_@Base 4.96.0
- _ZN9KTextEdit7Private23spellCheckerMisspellingERK7QStringi@Base 4.96.0
- _ZN9KTextEdit7Private4initEv@Base 4.96.0
  _ZN9KTextEdit7replaceEv@Base 4.96.0
  _ZN9KTextEdit8slotFindEv@Base 4.96.0
  _ZN9KTextEditC1EP7QWidget@Base 4.96.0
@@ -286,9 +251,6 @@ libKF5TextWidgets.so.5 libkf5textwidgets5 #MINVER#
  _ZTV5KFind@Base 4.96.0
  _ZTV8KReplace@Base 4.96.0
  _ZTV9KTextEdit@Base 4.96.0
- _ZZZN9KTextEdit7PrivateC4EPS_ENKUlvE0_clEvE15qstring_literal@Base 5.16.0
- _ZZZN9KTextEdit7PrivateC4EPS_ENKUlvE1_clEvE15qstring_literal@Base 5.16.0
- _ZZZN9KTextEdit7PrivateC4EPS_ENKUlvE_clEvE15qstring_literal@Base 5.16.0
  (c++)"non-virtual thunk to KFindDialog::~KFindDialog()@Base" 4.96.0
  (c++)"non-virtual thunk to KPluralHandlingSpinBox::~KPluralHandlingSpinBox()@Base" 5.0.0
  (c++)"non-virtual thunk to KReplaceDialog::~KReplaceDialog()@Base" 4.96.0
